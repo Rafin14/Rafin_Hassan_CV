@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(199, 208, 235);
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+.container{
+
+    max-width: 1000px;
+    background-color: rgb(227, 209, 248);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+
+
+}
+
+.profile{
+    
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    border-radius: 30%;
+    float: left;
+}
+
+.name{
+
+    line-height: 150%;
+    padding: 20px;
+    float: left;
+}
+
+
+.contact{
+    
+    float: right;
+    padding: 20px;
+}
+
+.contact a{
+
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.contact a:hover{
+
+    text-decoration: underline;
+    color: rgb(59, 2, 124);
+}
+
+.clear-div{
+
+    clear: both;
+    padding: 10px;
+}
+
+hr{
+    border: 1px solid black;
+    border-radius: 20%;
+}
